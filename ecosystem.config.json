@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "Audio",
+      "script": "./server.js",
+      "watch": false,
+      "ignore_watch": [
+        "node_modules"
+      ],
+      "log_date_format": "DD/MM/YYYY HH:mm Z",
+      "env": {
+        "NODE_ENV": "production",
+        "NODE_API_URL": "http://localhost:8080/api/audioManutencao",
+        "NODE_VLC_PATH": "c:\\Program Files\\videolan\\vlc\\vlc.exe"
+      }
+    }
+  ]
+}
